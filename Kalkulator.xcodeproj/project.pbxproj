@@ -13,6 +13,7 @@
 		355BC8A828BCAC2100BEFF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355BC8A628BCAC2100BEFF16 /* Main.storyboard */; };
 		355BC8AA28BCAC2300BEFF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355BC8A928BCAC2300BEFF16 /* Assets.xcassets */; };
 		355BC8AD28BCAC2400BEFF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355BC8AB28BCAC2300BEFF16 /* LaunchScreen.storyboard */; };
+		357C15DE28D9969A00CB1339 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357C15DD28D9969A00CB1339 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		355BC8A928BCAC2300BEFF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355BC8AC28BCAC2300BEFF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355BC8AE28BCAC2400BEFF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357C15DD28D9969A00CB1339 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		355BC89F28BCAC2100BEFF16 /* Kalkulator */ = {
 			isa = PBXGroup;
 			children = (
+				357C15DD28D9969A00CB1339 /* Extensions.swift */,
 				355BC8A028BCAC2100BEFF16 /* AppDelegate.swift */,
 				355BC8A228BCAC2100BEFF16 /* SceneDelegate.swift */,
 				355BC8A428BCAC2100BEFF16 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				355BC8A528BCAC2100BEFF16 /* ViewController.swift in Sources */,
 				355BC8A128BCAC2100BEFF16 /* AppDelegate.swift in Sources */,
 				355BC8A328BCAC2100BEFF16 /* SceneDelegate.swift in Sources */,
+				357C15DE28D9969A00CB1339 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
